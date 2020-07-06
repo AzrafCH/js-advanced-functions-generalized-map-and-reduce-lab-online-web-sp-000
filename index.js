@@ -14,3 +14,4 @@ const reduce = function(array, callback, initial){
         total = callback(array[i], total);
     }
     return total
+}
